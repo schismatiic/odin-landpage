@@ -139,3 +139,14 @@ li {
 .sign__left {
   font-size: 20px;
 }
+
+.footer {
+  background-color: #1f2937;
+  padding: 40px 0;
+}
+.footer__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
+}
