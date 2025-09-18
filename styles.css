@@ -68,6 +68,7 @@ li {
   flex-direction: column;
   align-items: center;
   color: #1f2937;
+  padding: 90px 0;
 }
 .main__cards h2 {
   font-size: 36px;
@@ -94,4 +95,28 @@ li {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.main__quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  color: #1f2937;
+}
+.main__quote p {
+  font-size: 36px;
+  font-weight: 300;
+}
+.main__quote h4 {
+  font-size: 24px;
+}
+.quote__container {
+  margin: 80px 300px;
+}
+.quote__h4 {
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
 }
