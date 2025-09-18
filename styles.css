@@ -14,7 +14,8 @@ header {
   font-size: 18px;
 }
 .container {
-  margin: 20px 200px;
+  margin: 20px 300px;
+  padding-bottom: 70px;
 }
 a {
   text-decoration: none;
@@ -47,8 +48,7 @@ li {
   font-weight: 900;
 }
 .left__child {
-  margin: 20px;
-  margin-left: 0;
+  margin: 20px 0;
 }
 .left button {
   background-color: #3882f6;
