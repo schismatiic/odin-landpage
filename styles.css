@@ -47,6 +47,9 @@ li {
   color: #f9faf8;
   font-weight: 900;
 }
+.left {
+  margin-right: 30px;
+}
 .left__child {
   margin: 20px 0;
 }
@@ -58,4 +61,37 @@ li {
   border: none;
   border-radius: 10px;
   padding: 10px 30px;
+}
+
+.main__cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #1f2937;
+}
+.main__cards h2 {
+  font-size: 36px;
+  font-weight: 900;
+  margin: 30px 0;
+}
+.cards {
+  display: flex;
+  margin: 0 500px;
+  margin-bottom: 30px;
+}
+.cards__img {
+  width: 250px;
+  border-radius: 8px;
+  border: 4px solid #3882f6;
+}
+.cards p {
+  margin-top: 10px;
+  text-align: center;
+}
+.cards li {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
